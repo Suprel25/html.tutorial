@@ -33,26 +33,32 @@
 
     <main>
         <section id="about">
-            <div class="section__description">   
-                <div>
-                    <h2>About</h2>
-                    <p>Front End Simplified (FES) is an online learning platform designed to help aspiring developers build the skills needed for modern web development careers. Through structured lessons, hands-on projects, mentorship, and career guidance, FES teaches essential technologies such as HTML, CSS, JavaScript, React, and more. The program focuses on helping students gain practical experience, build professional portfolios, and prepare for opportunities in the tech industry.</p>
-                    <p>Front End Simplified (FES) is an online learning platform designed to help aspiring developers build the skills needed for modern web development careers. Through structured lessons, hands-on projects, mentorship, and career guidance, FES teaches essential technologies such as HTML, CSS, JavaScript, React, and more. The program focuses on helping students gain practical experience, build professional portfolios, and prepare for opportunities in the tech industry.</p>
+            <h2>About</h2>
+            <div class="row">
+                <div class="section__description">   
+                    <div class="section__description--wrapper" >
+                        <p class="section__description--para">Front End Simplified (FES) is an online learning platform designed to help aspiring developers build the skills needed for modern web development careers. Through structured lessons, hands-on projects, mentorship, and career guidance, FES teaches essential technologies such as HTML, CSS, JavaScript, React, and more. The program focuses on helping students gain practical experience, build professional portfolios, and prepare for opportunities in the tech industry.</p>
+                        <p class="section__description--para">Front End Simplified (FES) is an online learning platform designed to help aspiring developers build the skills needed for modern web development careers. Through structured lessons, hands-on projects, mentorship, and career guidance, FES teaches essential technologies such as HTML, CSS, JavaScript, React, and more. The program focuses on helping students gain practical experience, build professional portfolios, and prepare for opportunities in the tech industry.</p>
+                    </div>
+                    <figure class="about__image--wrapper">
+                        <img src="assets/about.jpg" alt="About page image">
+                    </figure>
                 </div>
-                <figure>
-                    <img src="assets/about.jpg" alt="About page image">
-                </figure>
             </div>
         </section>
 
         <section id="discord">
             <h2>Discord</h2>
-             <figure>
-                <img src="assets/discord.png" alt="Discord page image">
-            </figure>
-            <div>
-            <p>Front End Simplified (FES) is an online learning platform designed to help aspiring developers build the skills needed for modern web development careers. Through structured lessons, hands-on projects, mentorship, and career guidance, FES teaches essential technologies such as HTML, CSS, JavaScript, React, and more. The program focuses on helping students gain practical experience, build professional portfolios, and prepare for opportunities in the tech industry.</p>           
-            <p>Join our Discord community to connect with other learners and get support from our mentors.</p>
+            <div class="row">
+                <div class="section__description">
+                    <figure class="about__image--wrapper">
+                        <img src="assets/discord.png" alt="Discord page image">
+                    </figure>
+                    <div class="section__description--wrapper">
+                    <p class="section__description--para">Front End Simplified (FES) is an online learning platform designed to help aspiring developers build the skills needed for modern web development careers. Through structured lessons, hands-on projects, mentorship, and career guidance, FES teaches essential technologies such as HTML, CSS, JavaScript, React, and more. The program focuses on helping students gain practical experience, build professional portfolios, and prepare for opportunities in the tech industry.</p>           
+                    <p class="section__description--para">Join our Discord community to connect with other learners and get support from our mentors.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -63,17 +69,18 @@
                 <input type="email" placeholder="jane@example.com">
 
                 <label for="message">Message:</label>
-                <textarea type="text" placeholder="Your message here..."></textarea>
+                <textarea type="text" placeholder="Cool Lets Connect!!"></textarea>
+                <button>Contact Us!</button>
             </form>
         </section>
     </main>
     <footer>
-        <img src="assets/FES.svg" alt="Front End Simplified Logo">
-        <div>
-            <a href="#about">About</a>
-            <a href="#discord">Discord</a>
-            <a href="#contact">Contact</a>
-            <a href="">courses</a>
+        <img class="footer__logo" src="assets/FES.svg" alt="Front End Simplified Logo">
+        <div class="footer__links">
+            <a class="footer__link" href="#about">About</a>
+            <a class="footer__link" href="#discord">Discord</a>
+            <a class="footer__link" href="#contact">Contact</a>
+            <a class="footer__link" href="">courses</a>
         </div>
         <p>&copy; 2023 Front End Simplified. All rights reserved.</p>
     </footer>
